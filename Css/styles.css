@@ -1,0 +1,197 @@
+* {
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;    
+}
+
+body {
+font-family: 'Montserrat';
+text-align: center;
+}
+
+/* Bootsrap container */
+.container-fluid {
+padding: 3% 15%;
+}
+
+/* Navigation bar */
+.navbar-brand {
+font-family: 'ubuntu';
+font-size: 3rem;
+font-weight: 800;   
+}
+
+.nav-item {
+font-size: 1.6rem;
+text-decoration: underline;
+padding: 0 18px;
+}
+
+/* Banner image */
+.banner-img {
+margin-left: 110px;
+transform: rotate(30deg);
+width: 60%;
+}
+
+.download-button {
+
+margin: 5% 3% 5% 2%
+}
+
+span {
+text-decoration: underline;
+}
+
+/* Global markup */
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Montserrat'
+}
+
+p {
+color: #8f8f8f;
+}
+
+
+/* Headings */
+
+.big-heading {
+color: white;
+font-weight: 900;
+font-size: 3.5rem;
+margin-top: 120px;
+line-height: 1.5;
+text-align: left;
+}
+
+.section-heading {
+font-size: 3rem;
+color: #000;
+}
+
+#title{
+background-color: #ff4c68;
+}
+    
+
+/* Feature section */
+
+#features {
+padding: 7% 15%;
+background-color: #fff;
+}
+
+.feature-box {
+padding: 4.5%;
+}
+
+.feature-text {
+font-size: 2rem;   
+}
+
+.icon {
+color:#ef8172;
+margin-bottom: 1.5rem;
+}
+.icon:hover {
+color:#ff4c68;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+background-color: #ef8172;
+}
+
+.testimonial-text {
+font-size: 3rem;
+font-weight: 900;
+line-height: 1.5;
+color: #fff; 
+}
+
+.carousel-item {
+padding: 7% 15%;
+}
+
+.image-testimonial {
+border-radius: 50%;
+width: 15%;
+margin: 20px;
+}
+/* Media-press */
+
+#press {
+background-color: #ef8172;
+}
+
+.image-press {
+margin: 20px 25px 50px;
+width: 15%;
+}
+/* Pricing section */
+
+.card-title {
+color: #000000;
+font-size: 2.6rem;
+}
+
+.card-title:hover {
+color:#ef8172;
+}
+
+#pricing {
+padding: 100px;
+}
+
+.pricing-column {
+padding: 3% 5%;
+}
+
+/* Cta section */
+
+#cta {
+background-color: #ff4c68;
+padding: 7% 15% ;
+}
+.cta-text {
+font-size: 3.5rem;
+color: #fff;
+line-height: 1.5;
+}
+
+.social-icon {
+margin: 20px 25px 50px;
+}
+
+#footer {
+padding: 5% 15%;
+}
+
+
+/* Media queries */
+@media (max-width:1080px){
+
+    #title {
+    text-align: center;
+    }
+    .banner-img {
+    margin: 0 auto;
+    transform: rotate(0);
+    } 
+
+    h1 {
+    font-size: 1.5rem;    
+    }
+
+    h2 {
+    font-size: 1.5rem;
+    }
+
+    .card-title {
+    font-size: 1.5rem;
+    }
+ 
+}
